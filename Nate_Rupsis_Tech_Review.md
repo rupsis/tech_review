@@ -44,7 +44,24 @@ Nathaniel Rupsis (NetId: nrupsis2), CS410 - Text Information Systems
 
 Over the course of past several decades, we've seen an exponential growth of data creation, dissemination, and availability. According to Statista.com [1] the volume of data created world wide has increased 30 fold since 2010, and is forecasted to triple over the next 4 years. Because of this, we have more information at our fingertips then ever before. However, too much of a good thing can lead to some unintended consequences. This paper will briefly summarize some areas of research which aims to help the educational efforts to provides highly relevant, useful, and summarized information for learning. 
 
-## Body
+<br />
+
+## Utilization of Big Data Methods
+
+--- 
+
+In this overview, we'll be examining two distinct, but similar research projects that focus on providing complementary information to web based learning. 
+
+<br /> 
+The first research project is AXIS (Adaptive eXplanation Improvement System)[2]. The aim the of the AXIS system is to provided high quality explanations of educational material via a Human Centric feedback model. This feedback cycle (aided with some machine learning), continuously improves the quality of resources via user feedback prompts. AXIS is composed of 2 main components, a data collection interface (learnersourcing) and an explanation selection policy (a "multi-armed bandit"problem model which selects which resource to deliver). This 2 part yin and yang system delivers problem solutions (or other relevant learning material) to the user, then immediately prompts for feedback. This 
+
+
+
+
+
+
+
+
 
 <!-- With the rise of choice, it becomes more difficult to find highly relivant information -->
 
@@ -83,11 +100,14 @@ This paper will briefly summerize some areas of research to help aid in the educ
 
 <!-- With the ever increasing amount of information being created, it's important to be able to provide highly avaible, relevant data to promote and drive education behaviors -->
 
+
+
 ## References
+
+----
+
 [1] Holst, Arne. “Data Created Worldwide 2010-2024.” Statista, 7 July 2020, www.statista.com/statistics/871513/worldwide-data-created/. 
 
-[2]  Head, Andrew, et al. “Tutorons: Generating Context-Relevant, on-Demand Explanations and Demonstrations of Online Code.” 2015 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC), 2015, doi:10.1109/vlhcc.2015.7356972. 
+[2] Williams, Joseph Jay, et al. “Axis.” Proceedings of the Third (2016) ACM Conference on Learning @ Scale - L@S '16, 2016, doi:10.1145/2876034.2876042. 
 
-
-[3] Williams, Joseph Jay, et al. “Axis.” Proceedings of the Third (2016) ACM Conference on Learning @ Scale - L@S '16, 2016, doi:10.1145/2876034.2876042. 
-
+[3]  Head, Andrew, et al. “Tutorons: Generating Context-Relevant, on-Demand Explanations and Demonstrations of Online Code.” 2015 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC), 2015, doi:10.1109/vlhcc.2015.7356972. 
