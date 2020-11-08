@@ -53,8 +53,12 @@ Over the course of past several decades, we've seen an exponential growth of dat
 In this overview, we'll be examining two distinct, but similar research projects that focus on providing complementary information to web based learning. 
 
 <br /> 
-The first research project is AXIS (Adaptive eXplanation Improvement System)[2]. The aim the of the AXIS system is to provided high quality explanations of educational material via a Human Centric feedback model. This feedback cycle (aided with some machine learning), continuously improves the quality of resources via user feedback prompts. AXIS is composed of 2 main components, a data collection interface (learnersourcing) and an explanation selection policy (a "multi-armed bandit"problem model which selects which resource to deliver). This 2 part yin and yang system delivers problem solutions (or other relevant learning material) to the user, then immediately prompts for feedback. This 
+The first research project is AXIS (Adaptive eXplanation Improvement System)[2]. The aim the of the AXIS system is to provided high quality explanations of educational material via a Human Centric feedback model. This feedback cycle (aided with some machine learning), continuously improves the quality of resources via user feedback prompts. AXIS is composed of 2 main components, a data collection interface (learnersourcing) and an explanation selection policy (a "multi-armed bandit"problem model which selects which resource to deliver). This 2 part yin and yang system delivers problem solutions (or other relevant learning material) to the user, then immediately prompts for feedback. 
 
+<br />
+<br />
+
+This feedback loop is what drives the recommendation engine. The AXIS system uses Thompson sampling (a Bayesian algorithm). This Thompson model stores a probability for each item, and makes it's selection based on the highest perceived reward (I.e, a high rating from the user). Once the selection is made, the parameters are used as a prior. The Likelihood used in the model is Bernoulli distribution, and is updated based on each reward observation (feedback submitted). 
 
 
 
